@@ -99,4 +99,4 @@ Reading RFCs is a skill in itself. They're dense, but learning to navigate them 
 
 ---
 
-*Written by: ICS CTF Coordinator | Last updated: February 2026*
+*Written by: Mo | Last updated: February 2026*
