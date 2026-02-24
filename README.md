@@ -109,7 +109,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on writing and submitting 
 
 ## 📬 Questions?
 
-Reach out to the **ICS CTF Coordinator** or post in the ICS Discord `#ctf-help` channel.
+Reach out to the **ICS CTF Coordinator** or post in the ICS Discord `#ncl` channel.
 
 ---
 
