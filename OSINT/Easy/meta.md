@@ -117,4 +117,4 @@ In real OSINT investigations, EXIF data can reveal where and when a photo was ta
 
 ---
 
-*Written by: ICS CTF Coordinator | Last updated: February 2026*
+*Written by: Mo | Last updated: February 2026*
