@@ -23,7 +23,6 @@ ics-ncl-walkthroughs/
 ├── OSINT/
 │   ├── easy/
 │   ├── medium/
-│   └── hard/
 ├── Cryptography/
 │   ├── easy/
 │   ├── medium/
