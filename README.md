@@ -43,20 +43,15 @@ Each category folder contains individual `.md` files — one per challenge — o
 
 ---
 
-## 🗂️ Categories
-
-| Category | Status | Challenges Covered |
-|---|---|---|
-| 🔍 OSINT | 🟡 In Progress | Easy: ✅ \| Medium: 🔲 \| Hard: 🔲 |
-| 🔐 Cryptography | 🔲 Coming Soon | — |
-| 💻 Enumeration & Exploitation | 🔲 Coming Soon | — |
-| 📋 Log Analysis | 🔲 Coming Soon | — |
-| 🌐 Network Traffic Analysis | 🔲 Coming Soon | — |
-| 🔑 Password Cracking | 🔲 Coming Soon | — |
-| 🔎 Scanning | 🔲 Coming Soon | — |
-| 🕸️ Web Application | 🔲 Coming Soon | — |
-
----
+🗂️ Categories
+CategoryStatusChallenges Covered🔍 OSINT✅ CompleteEasy: ✅ | Medium: ✅ | Hard: N/A🔐
+Cryptography🟡 In ProgressEasy: 🔲 | Medium: 🔲 | Hard: 🔲💻 
+Enumeration & Exploitation🔲 Coming Soon—📋 
+Log Analysis🔲 Coming Soon—🌐 
+Network Traffic Analysis🔲 Coming Soon—🔑 
+Password Cracking🔲 Coming Soon—🔎 
+Scanning🔲 Coming Soon—🕸️ 
+Web Application🔲 Coming Soon—🌐 
 
 ## 🚀 How to Use This Repo
 
