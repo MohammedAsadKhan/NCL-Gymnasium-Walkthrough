@@ -1,6 +1,5 @@
-# 🛡️ Islander Cyber Society — NCL Gymnasium Walkthroughs
+# 🛡️NCL Gymnasium Walkthroughs
 
-> **Maintained by the ICS CTF Team | Texas A&M University - Corpus Christi**
 
 This repository is the official study resource for ICS members competing in the [National Cyber League (NCL)](https://nationalcyberleague.org/). It contains step-by-step walkthroughs for every challenge in the **NCL Gymnasium** — designed to help you build accuracy, avoid common mistakes, and train for Individual and Team games.
 
