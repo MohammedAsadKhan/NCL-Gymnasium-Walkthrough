@@ -1,7 +1,8 @@
-# 🛡️NCL Gymnasium Walkthroughs
+# 🛡️ Islander Cyber Society — NCL Gymnasium Walkthroughs
 
+> **Maintained by the ICS CTF Team | Texas A&M University - Corpus Christi**
 
-This repository is the official study resource for members competing in the [National Cyber League (NCL)](https://nationalcyberleague.org/). It contains step-by-step walkthroughs for every challenge in the **NCL Gymnasium**, designed to help you build accuracy, avoid common mistakes, and train for Individual and Team games.
+This repository is the official study resource for ICS members competing in the [National Cyber League (NCL)](https://nationalcyberleague.org/). It contains step-by-step walkthroughs for every challenge in the **NCL Gymnasium** — designed to help you build accuracy, avoid common mistakes, and train for Individual and Team games.
 
 ---
 
@@ -23,6 +24,7 @@ ics-ncl-walkthroughs/
 ├── OSINT/
 │   ├── easy/
 │   ├── medium/
+│   └── hard/
 ├── Cryptography/
 │   ├── easy/
 │   ├── medium/
@@ -47,8 +49,8 @@ Each category folder contains individual `.md` files — one per challenge — o
 
 | Category | Status | Challenges Covered |
 |---|---|---|
-| 🔍 OSINT | 🟡 In Progress | Easy: ✅ \| Medium: 🔲 \| Hard: 🔲 |
-| 🔐 Cryptography | 🔲 Coming Soon | — |
+| 🔍 OSINT | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: N/A |
+| 🔐 Cryptography | 🟡 In Progress | Easy: 🔲 \| Medium: 🔲 \| Hard: 🔲 |
 | 💻 Enumeration & Exploitation | 🔲 Coming Soon | — |
 | 📋 Log Analysis | 🔲 Coming Soon | — |
 | 🌐 Network Traffic Analysis | 🔲 Coming Soon | — |
@@ -92,7 +94,7 @@ A full tools setup guide is in [`resources/tools.md`](resources/tools.md).
 ## 📌 NCL Gymnasium Tips (General)
 
 - **Attempt every challenge** — unanswered challenges score 0, but wrong answers penalize accuracy
-- **Verify before submitting** — double-check your flag format (`SKY-XXX-XXXX`)
+- **Verify before submitting** — double-check your flag format (`SKY-XXXX-XXXX`)
 - **The Gymnasium is your practice ground** — grind it until every category is second nature
 - **Track your accuracy** — aim for 90%+ before the Individual game opens
 
@@ -108,7 +110,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on writing and submitting 
 
 ## 📬 Questions?
 
-Reach out to the **ICS CTF Coordinator** or post in the ICS Discord `#ncl` channel.
+Reach out to the **ICS CTF Coordinator** or post in the ICS Discord `#ctf-help` channel.
 
 ---
 
