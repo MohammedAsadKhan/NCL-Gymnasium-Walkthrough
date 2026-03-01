@@ -54,7 +54,7 @@ Each category folder contains individual `.md` files — one per challenge — o
 | 💻 Enumeration & Exploitation | 🔲 Coming Soon | — |
 | 📋 Log Analysis | 🔲 Coming Soon | — |
 | 🌐 Network Traffic Analysis | 🔲 Coming Soon | — |
-| 🔑 Password Cracking | 🔲 Coming Soon | — |
+| 🔑 Password Cracking | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 | 🔎 Scanning | 🔲 Coming Soon | — |
 | 🕸️ Web Application | 🔲 Coming Soon | — |
 
@@ -110,7 +110,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on writing and submitting 
 
 ## 📬 Questions?
 
-Reach out to the **ICS CTF Coordinator** or post in the ICS Discord `#ctf-help` channel.
+Reach out to the **ICS CTF Coordinator** or post in the ICS Discord `#ncl` channel.
 
 ---
 
