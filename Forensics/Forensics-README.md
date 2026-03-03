@@ -6,12 +6,12 @@ Digging through files, images, and artifacts to uncover hidden data and reconstr
 
 ## A Word Before You Start
 
-Forensics is, in Mo's opinion, the hardest category in the entire NCL Gymnasium. Not because any single concept is impossibly difficult, but because the tools are more complex, the steps are less obvious, and small mistakes can send you in completely the wrong direction.
+Forensics is, in my opinion, the hardest category in the entire NCL Gymnasium. Not because any single concept is impossibly difficult, but because the tools are more complex, the steps are less obvious, and small mistakes can send you completely in the wrong direction.
 
 **Be patient with yourself on this one.** If you're stuck, don't just guess and tank your accuracy. Instead:
 
 - Re-read the walkthrough carefully from the beginning
-- Check the NCL Discord `#ctf-help` channel and ask for help
+- Check the NCL Discord `#ncl` channel and ask for help
 - Watch the official NCL YouTube walkthroughs linked in each challenge
 - Come back to it with fresh eyes if you've been staring at it for a while
 
