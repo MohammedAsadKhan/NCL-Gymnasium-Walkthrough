@@ -10,9 +10,13 @@
 
 You're given a compressed memory dump from a hacker's computer. Using Volatility3, you'll analyze what was running on the machine, extract a hidden SQLite database, find a real identity behind an alias, and crack the user's password hash.
 
-> 😤 Real talk: this challenge broke many of us. The official walkthrough uses a specific version of Volatility3 that no longer works out of the box, the hashdump plugin requires a crypto module that Kali fights you on installing, and the whole thing took hours of troubleshooting before it clicked. But yours truly found the working setup and documented every step so you don't have to suffer the same way.
+> 😤 Real talk: this challenge has a reputation. Ask anyone in the NCL Discord who attempted it and you'll get a range of responses from "I gave up" to "I lost 3 hours of my life." The official walkthrough uses a specific version of Volatility3 that no longer works out of the box, the hashdump plugin requires a crypto module that Kali actively fights you on installing, and the whole setup process is basically a boss fight before the actual challenge even starts.
 >
-> The walkthrough was written using Volatility3 commit `2dbc06f9954dce33a102ae27bd44059f41d1d001`. We used the **latest Volatility3** with a **Python virtual environment** to get the hashdump working. Both approaches are documented below.
+> But your boy did the research so you don't have to. 🫡
+>
+> Consider this walkthrough the cheat code. Every error we hit, every broken command, every "why is this not working" moment has been documented and solved right here. You're welcome.
+>
+> The walkthrough was written using Volatility3 commit `a17281a2145f5aa353fcccc35f09cfcd40ad0aa4`, recommended by the community as the working commit for this challenge. We used a **Python virtual environment** to get the hashdump working. Follow the setup steps exactly and you'll be fine.
 
 ---
 
@@ -35,6 +39,7 @@ This setup MUST be done before anything else. Do not skip the virtual environmen
 cd ~/Desktop
 git clone https://github.com/volatilityfoundation/volatility3.git volatility3
 cd volatility3
+git checkout a17281a2145f5aa353fcccc35f09cfcd40ad0aa4
 ```
 
 > ⚠️ **CRITICAL: Activate the virtual environment BEFORE installing anything.** If you skip this, pycryptodome will not be found by Volatility and the hashdump will fail with a `No module named 'Crypto'` error.
@@ -166,6 +171,8 @@ mkdir output
 ```
 
 Now dump the `black_book.db-journal` file using its virtual address from the previous step:
+
+> ⚠️ **The virtual addresses in this walkthrough are specific to this memory dump. Do NOT copy them blindly. Always use the address from YOUR filescan output.** The address starts with `0xe000` followed by more hex characters. Copy it exactly from your terminal.
 
 ```bash
 ./vol.py -f ./memdump.mem -o ./output windows.dumpfiles.DumpFiles --virtaddr 0xe0003f861960
