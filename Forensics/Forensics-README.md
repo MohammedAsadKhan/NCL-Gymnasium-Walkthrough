@@ -6,12 +6,12 @@ Digging through files, images, and artifacts to uncover hidden data and reconstr
 
 ## A Word Before You Start
 
-Forensics is, in my opinion, the hardest category in the entire NCL Gymnasium. Not because any single concept is impossibly difficult, but because the tools are more complex, the steps are less obvious, and small mistakes can send you completely in the wrong direction.
+Forensics is, in Mo's opinion, the hardest category in the entire NCL Gymnasium. Not because any single concept is impossibly difficult, but because the tools are more complex, the steps are less obvious, and small mistakes can send you in completely the wrong direction.
 
 **Be patient with yourself on this one.** If you're stuck, don't just guess and tank your accuracy. Instead:
 
 - Re-read the walkthrough carefully from the beginning
-- Check the NCL Discord `#ncl` channel and ask for help
+- Check the NCL Discord `#ctf-help` channel and ask for help
 - Watch the official NCL YouTube walkthroughs linked in each challenge
 - Come back to it with fresh eyes if you've been staring at it for a while
 
@@ -23,7 +23,7 @@ A wrong answer hurts your score more than no answer. When in doubt, ask.
 
 NCL Forensics challenges ask you to extract information from files, analyze metadata, recover deleted data, examine file structures, and interpret artifacts left behind by programs and operating systems. You'll work with tools like Autopsy, Wireshark, hex editors, and file carving utilities.
 
-> 💡 Screenshots are included throughout these walkthroughs to show you exactly what things should look like at each step. If your screen doesn't match the screenshot, something went wrong and you should go back and check your steps.
+> 💡 Screenshots are included throughout these walkthroughs to show you exactly what things should look like at each step. If your screen doesn't match the screenshot, something went wrong and you should go back and check your steps before continuing.
 
 ---
 
@@ -39,13 +39,13 @@ NCL Forensics challenges ask you to extract information from files, analyze meta
 | File | Topic |
 |---|---|
 | [file-carving.md](medium/file-carving.md) | Recovering files from raw disk images |
-| [magic-bytes.md](medium/magic-bytes.md) | Identifying files by their magic bytes |
-| [docter.md](medium/docter.md) | Analyzing document metadata and artifacts |
+| [magic-bytes.md](medium/magic-bytes.md) | Identifying and correcting file magic bytes |
+| [docter.md](medium/docter.md) | Extracting hidden files from Word documents |
 
 ### 🔴 Hard
 | File | Topic |
 |---|---|
-| [the-book.md](hard/the-book.md) | Advanced forensic analysis |
+| [the-book.md](hard/the-book.md) | Windows memory forensics with Volatility3 |
 
 ---
 
