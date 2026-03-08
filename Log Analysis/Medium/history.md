@@ -126,7 +126,7 @@ https://www.blockchain.com/btc/tx/[TRANSACTION_ID]
 
 On that page, look at the **inputs** section on the left side. Add up the BTC values of all inputs listed.
 
-![blockchain.info transaction page showing inputs and outputs](../images/loganalysis1.png)
+![blockchain.info transaction page showing inputs and outputs](../Medium/images/loganalysis1.png)
 
 > ⚠️ **Another accuracy note:** Add carefully. The total needs to be precise to 8 decimal places. Double check your addition. The correct answer is a number just over `0.226` BTC.
 
