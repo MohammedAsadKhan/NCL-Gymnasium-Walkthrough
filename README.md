@@ -52,7 +52,7 @@ Each category folder contains individual `.md` files — one per challenge — o
 | 🔍 OSINT | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: N/A |
 | 🔐 Cryptography | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 | 💻 Enumeration & Exploitation | 🔲 Coming Soon | — |
-| 📋 Log Analysis  | 🔲 In-Progress| Easy: ✅ \| Medium: ✅ \| Hard: 🔲 Coming Soon |
+| 📋 Log Analysis  | ✅ Complete| Easy: ✅ \| Medium: ✅ \| Hard: ✅|
 | 🌐 Network Traffic Analysis | 🔲 Coming Soon | — |
 | 🔑 Password Cracking | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 | 🔎 Scanning | 🔲 Coming Soon | — |
