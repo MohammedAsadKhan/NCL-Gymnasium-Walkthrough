@@ -55,7 +55,7 @@ Each category folder contains individual `.md` files — one per challenge — o
 | 📋 Log Analysis  | ✅ Complete| Easy: ✅ \| Medium: ✅ \| Hard: ✅|
 | 🌐 Network Traffic Analysis | 🔲 Coming Soon | — |
 | 🔑 Password Cracking | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
-| 🔎 Scanning | 🔲 Coming Soon | Easy: ✅ \| Medium: 🔲 Coming Soon \| Hard: 🔲 Coming Soon  |
+| 🔎 Scanning | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 | 🕸️ Web Application | 🔲 Coming Soon | — |
 
 ---
