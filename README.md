@@ -92,7 +92,7 @@ Each category folder contains individual `.md` files — one per challenge — o
 | 📋 Log Analysis | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 | 🔎 Scanning & Recon | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 | 📡 Wireless Access Exploitation | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
-| 💻 Enumeration & Exploitation | 🔲 Coming Soon | — |
+| 💻 Enumeration & Exploitation | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 | 🌐 Network Traffic Analysis | 🔲 Coming Soon | — |
 | 🕸️ Web Application | 🔲 Coming Soon | — |
 
