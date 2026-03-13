@@ -1,4 +1,4 @@
-# 🛡️ Islander Cyber Society — NCL Gymnasium Walkthroughs
+# 🛡️NCL Gymnasium Walkthroughs
 
 > **Maintained by the ICS CTF Team | Texas A&M University - Corpus Christi**
 
