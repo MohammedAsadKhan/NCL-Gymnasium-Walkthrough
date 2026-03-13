@@ -24,17 +24,53 @@ ics-ncl-walkthroughs/
 ├── OSINT/
 │   ├── easy/
 │   ├── medium/
-│   └── hard/
+│   ├── hard/
+│   └── images/
 ├── Cryptography/
 │   ├── easy/
 │   ├── medium/
-│   └── hard/
-├── Enumeration-and-Exploitation/
-├── Log-Analysis/
-├── Network-Traffic-Analysis/
+│   ├── hard/
+│   └── images/
 ├── Password-Cracking/
+│   ├── easy/
+│   ├── medium/
+│   ├── hard/
+│   └── images/
+├── Forensics/
+│   ├── easy/
+│   ├── medium/
+│   ├── hard/
+│   └── images/
+├── Log-Analysis/
+│   ├── easy/
+│   ├── medium/
+│   ├── hard/
+│   └── images/
+├── Enumeration-and-Exploitation/
+│   ├── easy/
+│   ├── medium/
+│   ├── hard/
+│   └── images/
 ├── Scanning/
+│   ├── easy/
+│   ├── medium/
+│   ├── hard/
+│   └── images/
+├── Network-Traffic-Analysis/
+│   ├── easy/
+│   ├── medium/
+│   ├── hard/
+│   └── images/
 ├── Web-Application/
+│   ├── easy/
+│   ├── medium/
+│   ├── hard/
+│   └── images/
+├── Wireless-Access-Exploitation/
+│   ├── easy/
+│   ├── medium/
+│   ├── hard/
+│   └── images/
 ├── templates/
 │   └── challenge-template.md   ← Use this when writing new walkthroughs
 └── resources/
@@ -51,11 +87,13 @@ Each category folder contains individual `.md` files — one per challenge — o
 |---|---|---|
 | 🔍 OSINT | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: N/A |
 | 🔐 Cryptography | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
-| 💻 Enumeration & Exploitation | 🔲 Coming Soon | — |
-| 📋 Log Analysis  | ✅ Complete| Easy: ✅ \| Medium: ✅ \| Hard: ✅|
-| 🌐 Network Traffic Analysis | 🔲 Coming Soon | — |
 | 🔑 Password Cracking | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
-| 🔎 Scanning | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
+| 🕵️ Forensics | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
+| 📋 Log Analysis | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
+| 🔎 Scanning & Recon | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
+| 📡 Wireless Access Exploitation | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
+| 💻 Enumeration & Exploitation | 🔲 Coming Soon | — |
+| 🌐 Network Traffic Analysis | 🔲 Coming Soon | — |
 | 🕸️ Web Application | 🔲 Coming Soon | — |
 
 ---
@@ -81,11 +119,14 @@ Each category folder contains individual `.md` files — one per challenge — o
 |---|---|
 | OSINT | Google Dorking, Shodan, Maltego, ExifTool, Reverse Image Search, WHOIS |
 | Cryptography | CyberChef, dCode.fr, Python, RsaCtfTool |
-| Log Analysis | grep, awk, Splunk (free tier), Excel/Sheets |
-| Network Traffic | Wireshark, tshark, NetworkMiner |
 | Password Cracking | Hashcat, John the Ripper, CrackStation |
+| Forensics | Wireshark, Volatility3, Binwalk, ExifTool, strings, sqlite3 |
+| Log Analysis | grep, awk, cut, sort, uniq, sqlite3, LibreOffice Calc |
+| Scanning & Recon | Nmap, Netcat, curl, git |
+| Wireless Access Exploitation | aircrack-ng, Wireshark |
+| Enumeration & Exploitation | Nmap, Gobuster, Nikto, Burp Suite, Metasploit |
+| Network Traffic Analysis | Wireshark, tshark, NetworkMiner |
 | Web Application | Burp Suite (Community), curl, browser DevTools |
-| Scanning | Nmap, Gobuster, Nikto |
 
 A full tools setup guide is in [`resources/tools.md`](resources/tools.md).
 
