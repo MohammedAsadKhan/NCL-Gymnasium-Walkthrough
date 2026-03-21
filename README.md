@@ -1,4 +1,4 @@
-# 🛡️NCL Gymnasium Walkthroughs
+# 🛡️ NCL Gymnasium Walkthroughs
 
 > **Maintained by Mo | Texas A&M University - Corpus Christi**
 
@@ -19,65 +19,25 @@ The NCL scores you on **accuracy, not just completion**. One wrong flag tanks yo
 
 ## 📁 Repository Structure
 
+Each category has its own folder containing individual `.md` files for each challenge along with an `images/` folder for screenshots used in the walkthroughs. Every category covers easy, medium, and hard challenges where applicable.
+
 ```
 ics-ncl-walkthroughs/
 ├── OSINT/
-│   ├── easy/
-│   ├── medium/
-│   ├── hard/
-│   └── images/
 ├── Cryptography/
-│   ├── easy/
-│   ├── medium/
-│   ├── hard/
-│   └── images/
 ├── Password-Cracking/
-│   ├── easy/
-│   ├── medium/
-│   ├── hard/
-│   └── images/
 ├── Forensics/
-│   ├── easy/
-│   ├── medium/
-│   ├── hard/
-│   └── images/
 ├── Log-Analysis/
-│   ├── easy/
-│   ├── medium/
-│   ├── hard/
-│   └── images/
 ├── Enumeration-and-Exploitation/
-│   ├── easy/
-│   ├── medium/
-│   ├── hard/
-│   └── images/
 ├── Scanning/
-│   ├── easy/
-│   ├── medium/
-│   ├── hard/
-│   └── images/
 ├── Network-Traffic-Analysis/
-│   ├── easy/
-│   ├── medium/
-│   ├── hard/
-│   └── images/
 ├── Web-Application/
-│   ├── easy/
-│   ├── medium/
-│   ├── hard/
-│   └── images/
 ├── Wireless-Access-Exploitation/
-│   ├── easy/
-│   ├── medium/
-│   ├── hard/
-│   └── images/
 ├── templates/
 │   └── challenge-template.md   ← Use this when writing new walkthroughs
 └── resources/
     └── tools.md                ← Recommended tools per category
 ```
-
-Each category folder contains individual `.md` files — one per challenge — organized by difficulty.
 
 ---
 
@@ -93,8 +53,8 @@ Each category folder contains individual `.md` files — one per challenge — o
 | 🔎 Scanning & Recon | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 | 📡 Wireless Access Exploitation | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 | 💻 Enumeration & Exploitation | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
-| 🌐 Network Traffic Analysis | 🔲 Coming Soon | — |
-| 🕸️ Web Application | 🔲 Coming Soon | — |
+| 🌐 Network Traffic Analysis | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
+| 🕸️ Web Application | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 
 ---
 
@@ -102,7 +62,7 @@ Each category folder contains individual `.md` files — one per challenge — o
 
 **As a competitor:**
 1. Open the folder for the category you're working on
-2. Start with `easy/` and work up — don't skip difficulty levels
+2. Start with the easy challenges and work up — don't skip difficulty levels
 3. Read the full walkthrough *before* re-attempting challenges you got wrong
 4. Pay special attention to the ⚠️ **Accuracy Tips** section in each file
 
@@ -122,11 +82,11 @@ Each category folder contains individual `.md` files — one per challenge — o
 | Password Cracking | Hashcat, John the Ripper, CrackStation |
 | Forensics | Wireshark, Volatility3, Binwalk, ExifTool, strings, sqlite3 |
 | Log Analysis | grep, awk, cut, sort, uniq, sqlite3, LibreOffice Calc |
-| Scanning & Recon | Nmap, Netcat, curl, git |
+| Scanning & Recon | Nmap, Netcat, curl, dig, git |
 | Wireless Access Exploitation | aircrack-ng, Wireshark |
-| Enumeration & Exploitation | Nmap, Gobuster, Nikto, Burp Suite, Metasploit |
-| Network Traffic Analysis | Wireshark, tshark, NetworkMiner |
-| Web Application | Burp Suite (Community), curl, browser DevTools |
+| Enumeration & Exploitation | GDB, Ghidra, uncompyle6, JD-GUI, Python |
+| Network Traffic Analysis | Wireshark, tshark, CyberChef |
+| Web Application | Firefox DevTools, Burp Suite (Community), curl, CyberChef |
 
 A full tools setup guide is in [`resources/tools.md`](resources/tools.md).
 
@@ -151,7 +111,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on writing and submitting 
 
 ## 📬 Questions?
 
-Reach out to the **ICS CTF Coordinator** or post in the ICS Discord `#ncl` channel.
+Reach out in the ICS Discord `#ncl` channel.
 
 ---
 
