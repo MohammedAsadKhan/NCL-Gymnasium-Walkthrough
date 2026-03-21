@@ -1,6 +1,6 @@
-# 🛡️ Islander Cyber Society — NCL Gymnasium Walkthroughs
+# 🛡️NCL Gymnasium Walkthroughs
 
-> **Maintained by the ICS CTF Team | Texas A&M University - Corpus Christi**
+> **Maintained by Mo | Texas A&M University - Corpus Christi**
 
 This repository is the official study resource for ICS members competing in the [National Cyber League (NCL)](https://nationalcyberleague.org/). It contains step-by-step walkthroughs for every challenge in the **NCL Gymnasium** — designed to help you build accuracy, avoid common mistakes, and train for Individual and Team games.
 
@@ -92,7 +92,7 @@ Each category folder contains individual `.md` files — one per challenge — o
 | 📋 Log Analysis | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 | 🔎 Scanning & Recon | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 | 📡 Wireless Access Exploitation | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
-| 💻 Enumeration & Exploitation | 🔲 Coming Soon | — |
+| 💻 Enumeration & Exploitation | ✅ Complete | Easy: ✅ \| Medium: ✅ \| Hard: ✅ |
 | 🌐 Network Traffic Analysis | 🔲 Coming Soon | — |
 | 🕸️ Web Application | 🔲 Coming Soon | — |
 
