@@ -21,6 +21,8 @@ The skills here are foundational. If you're new to cybersecurity, this is one of
 |---|---|
 | [nmap.md](easy/nmap.md) | Port scanning with nmap |
 | [git.md](easy/git.md) | Enumerating a Git repository |
+| [dig.md](easy/dig.md) | DNS record enumeration with dig |
+| [dig.md](easy/dig.md) | DNS enumeration with dig |
 
 ### 🟡 Medium
 | File | Topic |
@@ -69,6 +71,46 @@ nmap -A target.com
 **Extract metadata from a file:**
 ```bash
 exiftool filename
+```
+
+**Query a DNS A record:**
+```bash
+dig @resolver A domain.com
+```
+
+**Query DNS MX records:**
+```bash
+dig @resolver MX domain.com
+```
+
+**Query DNS TXT records:**
+```bash
+dig @resolver TXT domain.com
+```
+
+**Query a specific DNS record type:**
+```bash
+dig @resolver [TYPE] domain.com
+```
+
+**Query a DNS A record:**
+```bash
+dig @resolver A target.com
+```
+
+**Query DNS MX records:**
+```bash
+dig @resolver MX target.com
+```
+
+**Query DNS TXT records:**
+```bash
+dig @resolver TXT target.com
+```
+
+**Query a specific DNS record type:**
+```bash
+dig @resolver [TYPE] target.com
 ```
 
 ---
